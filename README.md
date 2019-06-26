@@ -29,7 +29,7 @@ $ omf install rider
 ## Screenshot
 
 <p align="center">
-<img src="{{SCREENSHOT_URL}}">
+<img src="https://raw.githubusercontent.com/rideron89/rider-theme/master/screenshot.png">
 </p>
 
 
