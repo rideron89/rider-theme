@@ -1,7 +1,7 @@
 function _rider_theme_get_duration
-	set -l seconds (math "$CMD_DURATION / 1000")
-	set -l minutes (math "$seconds / 60")
-	set -l hours (math "$minutes / 60")
+	set -l seconds (math -s0 "$CMD_DURATION / 1000")
+	set -l minutes (math -s0 "$seconds / 60")
+	set -l hours (math -s0 "$minutes / 60")
 
 	if test $hours -gt 0
 		echo "$hours hrs"
